@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+*::selection {
+  background-color: rgb(255, 149, 0);
+  color: white;
+}
+
+/* Background */
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px;
+  margin: 0px;
+  height: 100vh;
+  background-color: black;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card */
+#root {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  min-height: min-content;
+  background-color: rgb(31, 31, 31);
+  border: solid 2px rgb(255, 149, 0);
+}

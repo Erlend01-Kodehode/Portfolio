@@ -1,0 +1,32 @@
+.Card {
+  height: 100%;
+  margin: 0px;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.CardTop {
+  height: 70%;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.CardBottom {
+  height: 30%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.CardTopLeft {
+  width: 35%;
+}
+
+.CardTopCentre {
+  width: 100%;
+}
+
+.CardTopRight {
+  width: 35%;
+}
