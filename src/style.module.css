@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 10px;
   color: whitesmoke;
+  overflow: hidden;
 }
 
 .CardTop {
@@ -17,16 +18,97 @@
   height: 30%;
   margin: 0px;
   padding: 0px;
+  align-items: center;
 }
 
 .CardTopLeft {
-  width: 35%;
+  width: 50%;
+  justify-content: space-between;
 }
 
 .CardTopCentre {
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .CardTopRight {
-  width: 35%;
+  width: 50%;
+}
+
+.ProfileImage {
+  width: 400px;
+  border: solid 1px rgb(255, 149, 0);
+  transition: 0.4s;
+}
+
+.CentreThingy {
+  width: 600px;
+  border: solid 1px rgb(255, 149, 0);
+  transition: 0.4s;
+}
+
+/* Queries */
+/* Width */
+@media screen and (max-width: 1320px) {
+  .ProfileImage {
+    width: 200px;
+  }
+  .CentreThingy {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .CardTopCentre {
+    display: none;
+  }
+  .CardTopLeft {
+    width: 100%;
+  }
+  .CardTopRight {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ProfileImage {
+    width: 160px;
+  }
+}
+
+/* Height */
+@media screen and (max-height: 900px) {
+  .ProfileImage {
+    width: 200px;
+  }
+  .CentreThingy {
+    width: 350px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .CardTopCentre {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 600px) and (max-width: 500px) {
+  .ProfileImage {
+    display: none;
+  }
+}
+
+/* Themes */
+.ThemeHTML {
+  color: #e34c26;
+}
+.ThemeCSS {
+  color: #663399;
+}
+.ThemeJavaScript {
+  color: #f7df1e;
+}
+.ThemeReact {
+  color: #61dbfb;
 }
