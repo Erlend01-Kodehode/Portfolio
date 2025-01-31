@@ -1,9 +1,12 @@
 import styles from "../style.module.css";
+import CardProjects from "./CardProjects";
+import CardProjectsTitle from "./CardProjectsTitle";
 
 function CardBottom() {
   return (
     <div className={styles.CardBottom}>
-      <p>Bottom</p>
+      <CardProjectsTitle />
+      <CardProjects />
     </div>
   );
 }

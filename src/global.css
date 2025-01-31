@@ -1,24 +1,24 @@
 * {
   box-sizing: border-box;
-  color: white;
+  /* color: white; */
   padding: 0px;
   margin: 0px;
 }
 
-*::selection {
+/* *::selection {
   background-color: rgb(255, 149, 0);
   color: white;
-}
+} */
 
 /* Background */
 body {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden;
   padding: 20px;
   margin: 0px;
   height: 100vh;
-  background-color: black;
+  background-color: black; */
 }
 
 div {
@@ -26,8 +26,14 @@ div {
   flex-direction: column;
 }
 
+p {
+  font-size: 1.2em;
+  /* transition: 0.2s; */
+}
+
 a {
   width: min-content;
+  font-size: 1.2em;
   transition: 0.2s;
 }
 a:hover {
@@ -35,11 +41,17 @@ a:hover {
 }
 
 /* Card */
-#root {
+/* #root {
   margin: 0px;
   padding: 0px;
   height: 100%;
   min-height: min-content;
   background-color: rgb(31, 31, 31);
   border: solid 2px rgb(255, 149, 0);
+} */
+
+#root {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
 }

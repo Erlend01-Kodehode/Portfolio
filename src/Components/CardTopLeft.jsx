@@ -1,10 +1,17 @@
 import styles from "../style.module.css";
+import { AppTheme } from "../App";
+import { useContext } from "react";
 
 function CardTopLeft() {
+  const [lightMode] = useContext(AppTheme);
   return (
     <div className={styles.CardTopLeft}>
       <div>
-        <img src="\AyyLmao.PNG" alt="Me" className={styles.ProfileImage} />
+        <img
+          src="\AyyLmao.PNG"
+          alt="Me"
+          className={lightMode ? styles.ProfileImageLight : styles.ProfileImage}
+        />
         <h2>Erlend B. Ugelstad</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab tempora

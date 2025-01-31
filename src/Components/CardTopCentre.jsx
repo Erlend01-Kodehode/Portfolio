@@ -1,4 +1,6 @@
 import styles from "../style.module.css";
+import { useContext } from "react";
+import { AppTheme } from "../App";
 
 function CardTopCentre() {
   return (
