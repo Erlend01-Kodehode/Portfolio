@@ -17,17 +17,8 @@ function CardProjects() {
             }
           />
         </a>
-      </div>
-      <div className={styles.ProjectContainer}>
-        <a href="#">Repo</a>
-        <a href="">
-          <img
-            src="/DescentIntoMadness.png"
-            alt="Pages"
-            className={
-              lightMode ? styles.ProjectImageLight : styles.ProjectImage
-            }
-          />
+        <a href="#" className={styles.ProjectBackup}>
+          Pages
         </a>
       </div>
       <div className={styles.ProjectContainer}>
@@ -40,6 +31,24 @@ function CardProjects() {
               lightMode ? styles.ProjectImageLight : styles.ProjectImage
             }
           />
+        </a>
+        <a href="#" className={styles.ProjectBackup}>
+          Pages
+        </a>
+      </div>
+      <div className={styles.ProjectContainer}>
+        <a href="#">Repo</a>
+        <a href="">
+          <img
+            src="/DescentIntoMadness.png"
+            alt="Pages"
+            className={
+              lightMode ? styles.ProjectImageLight : styles.ProjectImage
+            }
+          />
+        </a>
+        <a href="#" className={styles.ProjectBackup}>
+          Pages
         </a>
       </div>
     </div>

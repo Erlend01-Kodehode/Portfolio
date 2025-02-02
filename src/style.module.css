@@ -139,6 +139,10 @@
   transition: 0.4s;
 }
 
+.ProjectBackup {
+  display: none;
+}
+
 /* Queries */
 /* Combo */
 /* @media screen and (max-height: 600px) and (max-width: 500px) {
@@ -147,7 +151,7 @@
   }
 } */
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1450px) {
   .ProfileImage {
     width: 200px;
   }
@@ -159,7 +163,7 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 970px) {
   .CardTopCentre {
     display: none;
   }
@@ -177,7 +181,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .CardBottom {
     height: 20%;
   }
@@ -186,6 +190,13 @@
   }
   .ProjectImageLight {
     display: none;
+  }
+  .ProjectBackup {
+    display: flex;
+  }
+  p,
+  a {
+    font-size: 1em;
   }
 }
 
@@ -216,7 +227,7 @@
   }
 }
 
-@media screen and (max-height: 650px) {
+@media screen and (max-height: 760px) {
   .CardTopCentre {
     display: none;
   }
@@ -232,9 +243,8 @@
   .ProjectImageLight {
     display: none;
   }
-  p,
-  a {
-    font-size: 1em;
+  .ProjectBackup {
+    display: flex;
   }
 }
 
