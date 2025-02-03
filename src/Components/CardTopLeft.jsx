@@ -22,8 +22,18 @@ function CardTopLeft() {
       <div>
         <p>TLF: 91850686</p>
         <p>Email: Erlend.Ugelstad@hotmail.no</p>
-        <a href="https://github.com/Erlend01-Kodehode">Github</a>
-        <a href="#">CV</a>
+        <a
+          href="https://github.com/Erlend01-Kodehode"
+          className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
+        >
+          Github
+        </a>
+        <a
+          href="#"
+          className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
+        >
+          CV
+        </a>
       </div>
     </div>
   );

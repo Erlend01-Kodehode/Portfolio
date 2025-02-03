@@ -129,18 +129,64 @@
 
 .ProjectImage {
   width: 300px;
+  height: 160px;
   border: solid 1px rgb(255, 149, 0);
   transition: 0.4s;
 }
 
 .ProjectImageLight {
   width: 300px;
+  height: 160px;
   border: solid 1px grey;
   transition: 0.4s;
 }
 
 .ProjectBackup {
   display: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.ProjectBackupLight {
+  display: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.LinkThemed {
+  color: white;
+  text-decoration: underline;
+}
+
+.LinkThemedLight {
+  color: black;
+  text-decoration: underline;
+}
+
+.ThemeButton {
+  position: absolute;
+  display: flex;
+  visibility: hidden;
+  left: 1px;
+  top: 130px;
+  width: 0px;
+  height: 0px;
+  transform: rotate(270deg);
+}
+
+.ThemeButtonText {
+  visibility: visible;
+  color: white;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.ThemeButtonTextLight {
+  visibility: visible;
+  color: black;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  cursor: pointer;
 }
 
 /* Queries */
@@ -183,7 +229,7 @@
 
 @media screen and (max-width: 660px) {
   .CardBottom {
-    height: 20%;
+    height: max-content;
   }
   .ProjectImage {
     display: none;
@@ -192,6 +238,9 @@
     display: none;
   }
   .ProjectBackup {
+    display: flex;
+  }
+  .ProjectBackupLight {
     display: flex;
   }
   p,
@@ -237,6 +286,9 @@
   .ProfileImageLight {
     width: 160px;
   }
+  .CardBottom {
+    height: max-content;
+  }
   .ProjectImage {
     display: none;
   }
@@ -246,9 +298,12 @@
   .ProjectBackup {
     display: flex;
   }
+  .ProjectBackupLight {
+    display: flex;
+  }
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 600px) {
   .ProfileImage {
     display: none;
   }

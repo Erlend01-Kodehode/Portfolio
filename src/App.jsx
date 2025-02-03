@@ -25,7 +25,15 @@ function App() {
   return (
     <AppTheme.Provider value={[lightMode, setLightMode]}>
       <div className={lightMode ? styles.BodyClassLight : styles.BodyClass}>
-        <button onClick={swapTheme}>Test</button>
+        <button onClick={swapTheme} className={styles.ThemeButton}>
+          <p
+            className={
+              lightMode ? styles.ThemeButtonTextLight : styles.ThemeButtonText
+            }
+          >
+            {lightMode ? "Theme Light" : "Theme Dark"}
+          </p>
+        </button>
         <div className={lightMode ? styles.BackGroundLight : styles.BackGround}>
           <div className={lightMode ? styles.CardLight : styles.Card}>
             <CardTop />

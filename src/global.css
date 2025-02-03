@@ -32,12 +32,16 @@ p {
 }
 
 a {
-  width: min-content;
+  width: fit-content;
   font-size: 1.2em;
   transition: 0.2s;
 }
 a:hover {
   background-color: rgb(255, 149, 0);
+}
+
+img {
+  object-fit: cover;
 }
 
 /* Card */

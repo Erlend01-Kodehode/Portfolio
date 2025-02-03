@@ -7,47 +7,77 @@ function CardProjects() {
   return (
     <div className={styles.CardProjects}>
       <div className={styles.ProjectContainer}>
-        <a href="#">Repo</a>
-        <a href="">
+        <a
+          href="https://github.com/Erlend01-Kodehode/CoreWorlds"
+          className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
+        >
+          Starsector Planets
+        </a>
+        <a href="#">
           <img
-            src="/DescentIntoMadness.png"
+            src="/CoreWorldsProject.png"
             alt="Pages"
             className={
               lightMode ? styles.ProjectImageLight : styles.ProjectImage
             }
           />
         </a>
-        <a href="#" className={styles.ProjectBackup}>
+        <a
+          href="#"
+          className={
+            lightMode ? styles.ProjectBackupLight : styles.ProjectBackup
+          }
+        >
           Pages
         </a>
       </div>
       <div className={styles.ProjectContainer}>
-        <a href="#">Repo</a>
-        <a href="">
+        <a
+          href="#"
+          className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
+        >
+          Wishlist Group Project
+        </a>
+        <a href="#">
           <img
-            src="/DescentIntoMadness.png"
+            src="/WishlistProject.png"
             alt="Pages"
             className={
               lightMode ? styles.ProjectImageLight : styles.ProjectImage
             }
           />
         </a>
-        <a href="#" className={styles.ProjectBackup}>
+        <a
+          href="#"
+          className={
+            lightMode ? styles.ProjectBackupLight : styles.ProjectBackup
+          }
+        >
           Pages
         </a>
       </div>
       <div className={styles.ProjectContainer}>
-        <a href="#">Repo</a>
-        <a href="">
+        <a
+          href="#"
+          className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
+        >
+          React Collection
+        </a>
+        <a href="#">
           <img
-            src="/DescentIntoMadness.png"
+            src="/ReactCollection.png"
             alt="Pages"
             className={
               lightMode ? styles.ProjectImageLight : styles.ProjectImage
             }
           />
         </a>
-        <a href="#" className={styles.ProjectBackup}>
+        <a
+          href="#"
+          className={
+            lightMode ? styles.ProjectBackupLight : styles.ProjectBackup
+          }
+        >
           Pages
         </a>
       </div>
