@@ -15,7 +15,7 @@ function CardProjects() {
         </a>
         <a href="https://erlend01-kodehode.github.io/CoreWorlds/">
           <img
-            src="/CoreWorldsProject.png"
+            src="CoreWorldsProject.png"
             alt="Pages"
             className={
               lightMode ? styles.ProjectImageLight : styles.ProjectImage
@@ -40,7 +40,7 @@ function CardProjects() {
         </a>
         <a href="https://erlend01-kodehode.github.io/GroupWork/">
           <img
-            src="/WishlistProject.png"
+            src="WishlistProject.png"
             alt="Pages"
             className={
               lightMode ? styles.ProjectImageLight : styles.ProjectImage
@@ -65,7 +65,7 @@ function CardProjects() {
         </a>
         <a href="https://erlend01-kodehode.github.io/ReactTask2/">
           <img
-            src="/ReactCollection.png"
+            src="ReactCollection.png"
             alt="Pages"
             className={
               lightMode ? styles.ProjectImageLight : styles.ProjectImage

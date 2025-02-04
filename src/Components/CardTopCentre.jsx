@@ -6,7 +6,7 @@ function CardTopCentre() {
   return (
     <div className={styles.CardTopCentre}>
       {/* <img
-        src="\AmogusDeFrance.gif"
+        src="public/AmogusDeFrance.gif"
         alt="Placeholder"
         className={styles.CentreThingy}
       /> */}

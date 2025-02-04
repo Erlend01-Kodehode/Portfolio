@@ -8,7 +8,7 @@ function CardTopLeft() {
     <div className={styles.CardTopLeft}>
       <div>
         <img
-          src="\AyyLmao.PNG"
+          src="AyyLmao.PNG"
           alt="Me"
           className={lightMode ? styles.ProfileImageLight : styles.ProfileImage}
         />
@@ -29,7 +29,7 @@ function CardTopLeft() {
           Github
         </a>
         <a
-          href="\CV2025 V5.pdf"
+          href="CV2025 V5.pdf"
           rel="noreferrer noopener"
           target="_blank"
           className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
