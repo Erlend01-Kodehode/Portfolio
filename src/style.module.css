@@ -259,12 +259,12 @@
   .CentreThingy {
     width: 350px;
   }
-  .ProjectImage {
+  /* .ProjectImage {
     width: 200px;
   }
   .ProjectImageLight {
     width: 200px;
-  }
+  } */
 }
 
 @media screen and (max-width: 500px) {

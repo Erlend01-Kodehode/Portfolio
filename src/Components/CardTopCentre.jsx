@@ -5,11 +5,11 @@ import { AppTheme } from "../App";
 function CardTopCentre() {
   return (
     <div className={styles.CardTopCentre}>
-      <img
+      {/* <img
         src="\AmogusDeFrance.gif"
         alt="Placeholder"
         className={styles.CentreThingy}
-      />
+      /> */}
     </div>
   );
 }
