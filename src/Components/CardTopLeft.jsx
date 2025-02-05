@@ -8,7 +8,7 @@ function CardTopLeft() {
     <div className={styles.CardTopLeft}>
       <div>
         <img
-          src="AyyLmao.PNG"
+          src="20250205_205121.jpg"
           alt="Me"
           className={lightMode ? styles.ProfileImageLight : styles.ProfileImage}
         />
