@@ -1,19 +1,53 @@
 import styles from "../style.module.css";
+import { AppTheme } from "../App";
+import { useContext } from "react";
 
 function CardTopRight() {
+  const [lightMode] = useContext(AppTheme);
   return (
     <div className={styles.CardTopRight}>
       <div>
-        <h1>Web Developer</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing{" "}
-          <span className={styles.ThemeHTML}>HTML</span>. Adipisci repellendus{" "}
-          <span className={styles.ThemeCSS}>CSS</span>{" "}
-          <span className={styles.ThemeJavaScript}>JavaScript</span> aperiam
-          praesentium autem mollitia animi! Quae, in{" "}
-          <span className={styles.ThemeReact}>React</span> suscipit, deleniti
-          repudiandae nulla beatae autem, sunt laborum quo earum.
-        </p>
+        <h1>Skills</h1>
+        <div>
+          <h2>Web Development</h2>
+          <p>
+            Designing webpages using Figma. Then using either pure{" "}
+            <span className={lightMode ? styles.ThemeLight : styles.ThemeHTML}>
+              HTML
+            </span>
+            /
+            <span className={lightMode ? styles.ThemeLight : styles.ThemeCSS}>
+              CSS
+            </span>{" "}
+            and{" "}
+            <span
+              className={lightMode ? styles.ThemeLight : styles.ThemeJavaScript}
+            >
+              JavaScript
+            </span>{" "}
+            or the{" "}
+            <span className={lightMode ? styles.ThemeLight : styles.ThemeReact}>
+              React
+            </span>{" "}
+            framework to build it.
+          </p>
+        </div>
+        <div>
+          <h2>Helpdesk</h2>
+          <p>
+            Previous employment and study at a school's 1st line IT helpdesk has
+            made me proficient in handling users at multiple skill levels and
+            troubleshooting many types of computer problems
+          </p>
+        </div>
+        <div>
+          <h2>Modding</h2>
+          <p>
+            Modder for Paradox Grand Strategy games using their PDXScript
+            programming language. <br />
+            My mods have in total accumulated near 4000 current subscribers.
+          </p>
+        </div>
       </div>
     </div>
   );

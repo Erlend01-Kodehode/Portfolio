@@ -10,7 +10,7 @@ function CardProjectsTitle() {
         lightMode ? styles.CardProjectsTitleLight : styles.CardProjectsTitle
       }
     >
-      <h1>Projects</h1>
+      <h1>Web Development Projects</h1>
     </div>
   );
 }

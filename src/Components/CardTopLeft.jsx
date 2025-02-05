@@ -14,9 +14,8 @@ function CardTopLeft() {
         />
         <h2>Erlend B. Ugelstad</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab tempora
-          fugit consequatur. Enim id adipisci odit ducimus? Tenetur doloremque
-          ipsa vel quia illum. Itaque, vel perspiciatis qui officia at adipisci.
+          Hello, I'm Erlend. A guy that likes working with computers. PC gamer,
+          modder and Web Developer.
         </p>
       </div>
       <div>
@@ -24,6 +23,8 @@ function CardTopLeft() {
         <p>Email: Erlend.Ugelstad@hotmail.com</p>
         <a
           href="https://github.com/Erlend01-Kodehode"
+          rel="noreferrer noopener"
+          target="_blank"
           className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
         >
           Github

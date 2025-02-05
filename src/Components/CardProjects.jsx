@@ -9,11 +9,17 @@ function CardProjects() {
       <div className={styles.ProjectContainer}>
         <a
           href="https://github.com/Erlend01-Kodehode/CoreWorlds"
+          rel="noreferrer noopener"
+          target="_blank"
           className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
         >
-          Starsector Planets
+          Starsector Fan Project
         </a>
-        <a href="https://erlend01-kodehode.github.io/CoreWorlds/">
+        <a
+          href="https://erlend01-kodehode.github.io/CoreWorlds/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
           <img
             src="CoreWorldsProject.png"
             alt="Pages"
@@ -24,6 +30,8 @@ function CardProjects() {
         </a>
         <a
           href="https://erlend01-kodehode.github.io/CoreWorlds/"
+          rel="noreferrer noopener"
+          target="_blank"
           className={
             lightMode ? styles.ProjectBackupLight : styles.ProjectBackup
           }
@@ -34,11 +42,17 @@ function CardProjects() {
       <div className={styles.ProjectContainer}>
         <a
           href="https://github.com/Erlend01-Kodehode/GroupWork"
+          rel="noreferrer noopener"
+          target="_blank"
           className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
         >
           Wishlist Group Project
         </a>
-        <a href="https://erlend01-kodehode.github.io/GroupWork/">
+        <a
+          href="https://erlend01-kodehode.github.io/GroupWork/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
           <img
             src="WishlistProject.png"
             alt="Pages"
@@ -49,6 +63,8 @@ function CardProjects() {
         </a>
         <a
           href="https://erlend01-kodehode.github.io/GroupWork/"
+          rel="noreferrer noopener"
+          target="_blank"
           className={
             lightMode ? styles.ProjectBackupLight : styles.ProjectBackup
           }
@@ -59,11 +75,17 @@ function CardProjects() {
       <div className={styles.ProjectContainer}>
         <a
           href="https://github.com/Erlend01-Kodehode/ReactTask2"
+          rel="noreferrer noopener"
+          target="_blank"
           className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
         >
           React Collection
         </a>
-        <a href="https://erlend01-kodehode.github.io/ReactTask2/">
+        <a
+          href="https://erlend01-kodehode.github.io/ReactTask2/"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
           <img
             src="ReactCollection.png"
             alt="Pages"
@@ -74,6 +96,8 @@ function CardProjects() {
         </a>
         <a
           href="https://erlend01-kodehode.github.io/ReactTask2/"
+          rel="noreferrer noopener"
+          target="_blank"
           className={
             lightMode ? styles.ProjectBackupLight : styles.ProjectBackup
           }
