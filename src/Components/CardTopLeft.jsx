@@ -30,7 +30,7 @@ function CardTopLeft() {
           Github
         </a>
         <a
-          href="CV2025 V5.pdf"
+          href="CV2025 V6.pdf"
           rel="noreferrer noopener"
           target="_blank"
           className={lightMode ? styles.LinkThemedLight : styles.LinkThemed}
