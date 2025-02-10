@@ -7,8 +7,8 @@ function CardTopRight() {
   return (
     <div className={styles.CardTopRight}>
       <div>
-        <h1>Skills</h1>
-        <div>
+        <h1 className={styles.ParagraphTitle}>Skills</h1>
+        <div className={styles.ParagraphSpacing}>
           <h2>Web Development</h2>
           <p>
             Designing webpages using Figma. Then using either pure{" "}
@@ -32,7 +32,7 @@ function CardTopRight() {
             framework to build it.
           </p>
         </div>
-        <div>
+        <div className={styles.ParagraphSpacing}>
           <h2>Helpdesk</h2>
           <p>
             Previous employment and study at a school's 1st line IT helpdesk has
@@ -40,7 +40,7 @@ function CardTopRight() {
             troubleshooting many types of computer problems
           </p>
         </div>
-        <div>
+        <div className={styles.ParagraphSpacing}>
           <h2>Modding</h2>
           <p>
             Modder for Paradox Grand Strategy games using their PDXScript

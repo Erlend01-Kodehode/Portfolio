@@ -196,6 +196,15 @@
   font-size: 1.2em;
 }
 
+.ParagraphTitle {
+  font-size: 2.4em;
+  padding-bottom: 8px;
+}
+
+.ParagraphSpacing {
+  padding-bottom: 8px;
+}
+
 /* Queries */
 /* Combo */
 /* @media screen and (max-height: 600px) and (max-width: 500px) {

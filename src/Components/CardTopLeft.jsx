@@ -12,7 +12,7 @@ function CardTopLeft() {
           alt="Me"
           className={lightMode ? styles.ProfileImageLight : styles.ProfileImage}
         />
-        <h2>Erlend B. Ugelstad</h2>
+        <h2 className={styles.ParagraphTitle}>Erlend B. Ugelstad</h2>
         <p>
           Hello, I'm Erlend. A guy that likes working with computers. PC gamer,
           modder and Web Developer.
